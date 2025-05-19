@@ -72,15 +72,6 @@ export function Welcome({ pathname }: WelcomeProps) {
 
           <div>
             <div className={fieldStyles().label()}>
-              {m.localizedLink({ href: "/cs" })}
-            </div>
-            <Link intent="primary" href={localizeHref("/")}>
-              {localizeHref("/cs")}
-            </Link>
-          </div>
-
-          <div>
-            <div className={fieldStyles().label()}>
               {m.localizedLinkFromServer()}
             </div>
             <div className="text-primary">{pathname}</div>
