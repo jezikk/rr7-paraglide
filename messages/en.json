@@ -1,0 +1,7 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "language": "Language",
+  "localizedLink": "Localized link - localizeHref('{href}')",
+  "localizedLinkFromServer": "Localized link from server (localizeUrl)",
+  "test": "English"
+}
