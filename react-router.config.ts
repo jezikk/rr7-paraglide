@@ -5,6 +5,7 @@ export default {
     unstable_splitRouteModules: true,
     unstable_viteEnvironmentApi: true,
     unstable_middleware: true,
+    unstable_optimizeDeps: true,
   },
   ssr: true,
 } satisfies Config;
