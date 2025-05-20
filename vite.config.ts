@@ -17,7 +17,7 @@ export default defineConfig({
       project: "./project.inlang",
       outdir: "./app/paraglide",
       cookieName: "app_locale",
-      strategy: ["url"],
+      strategy: ["url", "baseLocale"],
       urlPatterns: [
         {
           pattern: "/:path(.*)?",
