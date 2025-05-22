@@ -19,6 +19,7 @@ const localeMiddleware: Route.unstable_MiddlewareFunction = async (
     },
   );
 
+  // remove the base locale from the URL
   if (request.headers.get("Sec-Fetch-Dest") === "document") {
     const url = new URL(request.url);
     const path = url.pathname;
