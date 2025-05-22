@@ -18,15 +18,6 @@ export default defineConfig({
       outdir: "./app/paraglide",
       cookieName: "app_locale",
       strategy: ["cookie", "url", "baseLocale"],
-      urlPatterns: [
-        {
-          pattern: "/:path(.*)?",
-          localized: [
-            ["en", "/en/:path(.*)?"],
-            ["cs", "/:path(.*)?"],
-          ],
-        },
-      ],
     }),
   ],
 });
